@@ -1,0 +1,3 @@
+resources:
+  imageServer: http://images_test.hgz.com
+  emialServer: http://email_test.hgz.com

@@ -1,0 +1,9 @@
+#设置输入参数的格式化，这样子后台就可以接受date数据类型
+spring.mvc.date-format=yyyy-mm-dd
+#设置输出参数的格式化，这样子前台页面就可以输出date输出类型
+spring.jackson.date-format=yyyy-mm-dd
+#因为时间差所以加八个小时才是北京时间
+spring.jackson.time-zone=GMT+8
+#引入外部
+resources.imageServer = http://images.hgz.com
+resources.emialServer = http://email.hgz.com

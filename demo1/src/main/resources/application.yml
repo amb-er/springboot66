@@ -1,0 +1,8 @@
+spring:
+  mvc:
+    date-format: yyyy-mm-dd
+  jackson:
+    date-format: yyyy-mm-dd
+    time-zone: GMT+8
+  profiles:
+    active: test

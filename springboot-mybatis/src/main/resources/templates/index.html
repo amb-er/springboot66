@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<h1>biubiubiu</h1>
+<table>
+    <tr th:each="userList:${userList}">
+        <td th:text="${userList.name}"></td><td th:text="${userList.sex}"></td>
+        <td th:text="${#dates.format(userList.data,'yyyy-MM-dd HH:mm:ss')}"/></td>
+    </tr>
+</table>
+</body>
+</html>
